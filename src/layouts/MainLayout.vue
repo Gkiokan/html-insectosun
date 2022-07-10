@@ -28,25 +28,26 @@
       </q-toolbar>
     </q-header>
 
-    <q-drawer
-      v-if="false"
-      v-model="leftDrawerOpen"
-      :show-if-above="false"
-      bordered
-    >
-      <q-list>
-        <q-item-label
-          header
-        >
-          Essential Links
-        </q-item-label>
+    <q-drawer v-model="leftDrawerOpen" class="text-grey-9" :show-if-above="true" bordered>
+        <q-list>
+            <q-item-label header> InsectoSun </q-item-label>
+            <EssentialLink v-for="link in essentialLinks" :key="link.title" v-bind="link" />
+        </q-list>
 
-        <EssentialLink
-          v-for="link in essentialLinks"
-          :key="link.title"
-          v-bind="link"
-        />
-      </q-list>
+        <q-separator inset />
+
+        <q-list>
+            <EssentialLink v-for="link in supportLinks" :key="link.title" v-bind="link" />
+        </q-list>
+
+        <q-separator inset />
+
+        <div class="q-mt-md text-center">
+          <q-btn color="red" tag="a" href="tel:08988562848">
+              Kostenlose Beratung <br>089 / 88 56 28 48
+          </q-btn>
+        </div>
+
     </q-drawer>
 
     <q-page-container class="bg text-grey-9">
@@ -76,6 +77,13 @@ const linksList = [
   },
 ]
 
+const supportLinks = [
+  {
+    title: 'Impressum',
+    link: { name: 'imprint' }
+  },
+]
+
 export default defineComponent({
   name: 'MainLayout',
 
@@ -90,6 +98,7 @@ export default defineComponent({
     return {
       links: linksList,
       essentialLinks: linksList,
+      supportLinks,
       leftDrawerOpen,
       toggleLeftDrawer () {
         leftDrawerOpen.value = !leftDrawerOpen.value

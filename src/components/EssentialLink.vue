@@ -2,7 +2,8 @@
   <q-item
     clickable
     tag="a"
-    :href="link"
+    exact
+    :to="link"
   >
     <q-item-section v-if="icon" avatar>
       <q-icon :name="icon" />
@@ -34,8 +35,8 @@ export default defineComponent({
         },
 
         link: {
-          type: String,
-          default: '#'
+          type: Object,
+          default: {}
         },
 
         icon: {
