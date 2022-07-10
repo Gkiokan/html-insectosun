@@ -1,27 +1,29 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
-      <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="toggleLeftDrawer"
-        />
+    <q-header elevated class="bg-white">
+      <q-toolbar class="bg-transparent text-grey-9">
+        <q-btn flat dense icon="menu" aria-label="Menu" @click="toggleLeftDrawer" />
 
         <q-toolbar-title>
-          Quasar App
+          InsectoSun
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <q-space />
+
+        <div class="q-gutter-md">
+          <q-btn unelevated class="q-py-md" color="green-8" label="Insektenschutz" />
+          <q-btn unelevated class="q-py-md" text-color="grey-9" label="Sonnenschutz" />
+          <q-btn unelevated class="q-py-md" text-color="grey-9" label="Kontakt" />
+        </div>
+
+        <q-space />
+
       </q-toolbar>
     </q-header>
 
     <q-drawer
       v-model="leftDrawerOpen"
-      show-if-above
+      :show-if-above="false"
       bordered
     >
       <q-list>
@@ -39,8 +41,8 @@
       </q-list>
     </q-drawer>
 
-    <q-page-container>
-      <router-view />
+    <q-page-container class="bg text-grey-9">
+        <router-view />
     </q-page-container>
   </q-layout>
 </template>
@@ -114,3 +116,27 @@ export default defineComponent({
   }
 })
 </script>
+
+<style lang="scss" scoped>
+.q-layout {
+    &::before {
+      content: '';
+      position: absolute; z-index: 1;
+      top: 0px; left: 0px; right: 0px; bottom: 0px;
+      background: center center no-repeat #fff;
+      // background-image: url('/img/bg/bg-hexa.webp'); // nope
+      // background-image: url('/img/bg/bg-hexa2.webp');
+      background-image: url('/img/bg/bg-squad.webp');
+      // background-image: url('/img/bg/bg-wab.webp');
+      opacity: .7;
+      filter: grayscale(1);
+      background-size: cover;
+    }
+
+    .q-page {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+</style>

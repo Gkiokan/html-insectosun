@@ -1,1 +1,24 @@
-// app global css in SCSS form
+.q-card {
+    // box-shadow: 0 3px 5px -1px rgb(0 0 0 / 10%), 0 5px 8px rgb(0 0 0 / 4%), 0 1px 14px rgb(0 0 0 / 2%);
+    // box-shadow: 0 6px 6px -3px rgb(0 0 0 / 10%), 0 10px 14px 1px rgb(0 0 0 / 4%), 0 4px 18px 3px rgb(0 0 0 / 2%);
+    border-radius: 0px;
+}
+
+
+.highlight {
+  border-bottom: 3px solid pink;
+}
+
+.title {
+  padding: 10px 20px;
+  background: #4caf50;
+  color: white;
+}
+
+
+.ProductTabs {
+  .q-tab__label {
+      font-size: 24px;
+      font-weight: 400;
+  }
+}
