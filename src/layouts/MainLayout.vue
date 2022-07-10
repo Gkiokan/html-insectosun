@@ -10,10 +10,17 @@
 
         <q-space />
 
+        <div class="q-gutter-md" v-if="false">
+            <q-btn unelevated exact class="q-py-md" color="green-8" label="Insektenschutz" :to="{ name: 'home' }" />
+            <q-btn unelevated class="q-py-md" text-color="grey-9" label="Sonnenschutz" :to="{ name: 'sun' }" />
+            <q-btn unelevated class="q-py-md" text-color="grey-9" label="Kontakt" />
+        </div>
+
         <div class="q-gutter-md">
-          <q-btn unelevated class="q-py-md" color="green-8" label="Insektenschutz" />
-          <q-btn unelevated class="q-py-md" text-color="grey-9" label="Sonnenschutz" />
-          <q-btn unelevated class="q-py-md" text-color="grey-9" label="Kontakt" />
+            <q-btn unelevated  class="q-py-md" v-for="(item,i) in links" :key="'link_'+i"
+              :label="item.title" :to="item.link" :class="isCurrentRoute(item.link) ? 'bg-green-6 text-white' : 'text-grey-9'"
+            />
+
         </div>
 
         <q-space />
@@ -22,6 +29,7 @@
     </q-header>
 
     <q-drawer
+      v-if="false"
       v-model="leftDrawerOpen"
       :show-if-above="false"
       bordered
@@ -43,6 +51,7 @@
 
     <q-page-container class="bg text-grey-9">
         <router-view />
+        <MainFooter />
     </q-page-container>
   </q-layout>
 </template>
@@ -50,69 +59,51 @@
 <script>
 import { defineComponent, ref } from 'vue'
 import EssentialLink from 'components/EssentialLink.vue'
+import MainFooter from './MainFooter'
 
 const linksList = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
+    title: 'Insektenschutz',
+    link: { name: 'home' }
   },
   {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
+    title: 'Sonnenschutz',
+    link: { name: 'sun' }
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    title: 'Kontakt',
+    link: { name: 'contact' }
   },
-  {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
 ]
 
 export default defineComponent({
   name: 'MainLayout',
 
   components: {
-    EssentialLink
+    EssentialLink,
+    MainFooter,
   },
 
   setup () {
     const leftDrawerOpen = ref(false)
 
     return {
+      links: linksList,
       essentialLinks: linksList,
       leftDrawerOpen,
       toggleLeftDrawer () {
         leftDrawerOpen.value = !leftDrawerOpen.value
       }
     }
+  },
+
+  methods: {
+      isCurrentRoute(route){
+          if(this.$route.name == route.name)
+            return true
+
+          return false
+      }
   }
 })
 </script>
