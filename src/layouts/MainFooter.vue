@@ -5,7 +5,8 @@
       <div class="q-mb-md">
           <div class="text-h2">
               InsectoSun
-              <span class="text-green-6 q-px-md">|</span>
+              <br v-if="!$q.screen.gt.md" />
+              <span class="text-green-6 q-px-md" v-if="$q.screen.gt.md">|</span>
               <small class="text-grey-6">professioneler Insekten- und Sonnenschutz</small>
           </div>
           <q-space style="height: 30px" />
