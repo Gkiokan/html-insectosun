@@ -1,5 +1,6 @@
 <template lang="html">
 <div class='top_header shadow-8'>
+    <div class='background' :style="{ backgroundImage: 'url(' + image + ')' }" />
     <div class='overlay'>
         <div />
         <div />
@@ -27,11 +28,11 @@ export default {
   position: relative;
   height: 600px;
 
-  &::before {
+  .background {
       content: '';
       position: absolute; z-index: 3;
       top: 0px; left: 0px; right: 0px; bottom: 0px;
-      background: center center url('/img/insect/Insektenschutz_Türen_Header_2004.jpg.24293527.jpg');
+      background: center center;
       background-size: cover;
   }
 
