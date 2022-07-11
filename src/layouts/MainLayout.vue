@@ -41,11 +41,18 @@
 
         <q-separator inset />
 
-        <div class="q-mt-md text-center">
+        <div class="q-pa-md q-mt-md text-center">
           <q-btn color="red" tag="a" href="tel:08988562848">
               Kostenlose Beratung <br>
               089 / 88 56 28 48
           </q-btn>
+        </div>
+
+        <q-space style="height: 20px" />
+
+        <div class="q-pa-md">
+          <q-btn flat size="md" icon="fab fa-instagram" label="insectosun auf Instagram" @click="$root.open('https://www.instagram.com/insectosun/')" /> <br>
+          <q-btn flat size="md" icon="fab fa-facebook" label="InsectoSun auf Facebook" @click="$root.open('https://www.facebook.com/InsectoSun')" /> <br>
         </div>
 
     </q-drawer>

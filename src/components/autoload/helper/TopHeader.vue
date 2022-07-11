@@ -6,7 +6,10 @@
         <div />
         <div />
     </div>
-    <h1 class="title" v-if="title"><div>{{ title }}</div></h1>
+    <h1 class="title" v-if="title">
+        <div>{{ title }}</div>
+        <div class="sub" v-if="sub">{{ sub }}</div>
+    </h1>
 </div>
 </template>
 
@@ -16,7 +19,8 @@ export default {
 
   props: {
       image: {},
-      title: {}
+      title: {},
+      sub: {}
   }
 }
 </script>
@@ -67,6 +71,14 @@ export default {
     display: inline-block;
     font-weight: bold;
     padding: 10px 40px;
+
+    .sub {
+        font-size: 40%;
+        font-weight: 400;
+        margin: 0px;
+        padding-left: 80px;
+        line-height: 1.5;
+    }
   }
 }
 </style>
