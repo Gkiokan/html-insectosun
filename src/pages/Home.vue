@@ -70,18 +70,10 @@
 
 
             <q-card class='q-pa-lg bg-transparent no-shadow rounded-borders'>
-                <div class='row'>
-                    <div class="col-xs-12 col-md-4 text-center" v-for="(img,i) in prices" :key="'price_'+i">
+                <div class='row q-col-gutter-lg flex justify-around'>
+                    <div class="col-xs-auto col-md-4 text-center" v-for="(img,i) in prices" :key="'price_'+i">
                         <div class="q-pa-sm q-mb-lg shadow-price rounded-borders bg-white" style="display: inline-block">
-                            <img style="height: 160px;" :src="img" />
-                        </div>
-                    </div>
-                </div>
-
-                <div class='row'>
-                    <div class="col-xs-12 col-md-4 text-center" v-for="(img,i) in prices2" :key="'price_'+i">
-                        <div class="q-pa-sm q-mb-lg shadow-price rounded-borders bg-white" style="display: inline-block; min-width: 168px">
-                            <img style="height: 160px;" :src="img" />
+                            <q-img style="height: 200px; width: 200px;" fit="contain" :src="img" />
                         </div>
                     </div>
                 </div>
@@ -103,8 +95,6 @@ export default {
           '/img/transpatec/red-dot-design-award-winner-2011-1.jpg.webp',
           '/img/transpatec/RT_Innovationsaward_Logo_2021_DE_Gewinner_gold.png.webp',
           '/img/transpatec/if_award_2.jpg.webp',
-        ],
-        prices2: [
           '/img/transpatec/innovationspreis-r-t-2012-2.jpg.webp',
           '/img/transpatec/pxa_bp_de_pos_rgb-web.png.webp',
           '/img/transpatec/innovation-bw-2012.jpg.webp',
