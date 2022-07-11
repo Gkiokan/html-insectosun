@@ -2,7 +2,7 @@
 <q-page padding>
 
     <Container>
-        <h1 class="title">Impressum</h1>
+        <h1 class="title"><div>Impressum</div></h1>
 
         <div>
             Inhaber von <b>InsectoSun</b> <br>
