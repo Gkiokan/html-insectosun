@@ -19,6 +19,8 @@
             <q-btn unelevated  class="q-py-md" v-for="(item,i) in links" :key="'link_'+i"
               :label="item.title" :to="item.link" :class="isCurrentRoute(item.link) ? 'bg-green-6 text-white' : 'text-grey-9'"
             />
+
+            <q-btn outline class="q-py-md" color="green-8" label="Telefon Beratung" tag="a" href="tel:08988562848" />
         </div>
 
         <q-space />
@@ -42,7 +44,7 @@
 
         <div class="q-pa-md q-mt-md text-center">
           <q-btn color="red" tag="a" href="tel:08988562848">
-              Kostenlose Beratung <br>
+              Telefon Beratung <br>
               089 / 88 56 28 48
           </q-btn>
         </div>

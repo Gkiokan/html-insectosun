@@ -12,7 +12,7 @@
           <q-space style="height: 30px" />
           <q-btn color="red" size="lg" href="tel:08988562848">
               <q-icon name="call" class="q-mr-md" />
-              Kostenlose Beratung <br v-if="!$q.screen.gt.md">089 / 88 56 28 48
+              Telefon Beratung <br v-if="!$q.screen.gt.md">089 / 88 56 28 48
           </q-btn>
       </div>
       <q-space style="height: 30px" />
@@ -28,7 +28,6 @@
           <div class='col-xs-12 col-sm-6 col-md-3 col-lg-2'>
               <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" icon="call" label="089 / 88 56 28 48" href="tel:08988562848" />
               <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" icon="print" label="089 / 88 56 28 49" />
-              <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" icon="smartphone" label="0176 / 77777756" href="tel:004917677777756" />
               <q-space style="height: 30px" />
           </div>
 

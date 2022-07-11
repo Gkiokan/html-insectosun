@@ -23,7 +23,7 @@
                         ...unsere professionellen Lösungen schaffen Abhilfe!
                         <q-space style="height: 50px" />
 
-                        <q-btn flat color="green-6" size="lg" icon="call" label="Kostenlose Beratung" href="tel:08988562848" />
+                        <q-btn flat color="green-6" size="lg" icon="call" label="Telefon Beratung" href="tel:08988562848" />
                         <q-space style="height: 30px" />
                         <q-btn flat size="md" icon="fab fa-instagram" label="insectosun auf Instagram" @click="$root.open('https://www.instagram.com/insectosun/')" /> <br>
                         <q-btn flat size="md" icon="fab fa-facebook" label="InsectoSun auf Facebook" @click="$root.open('https://www.facebook.com/InsectoSun')" /> <br>
@@ -59,8 +59,7 @@
                 <q-space v-if="$q.screen.gt.md" />
 
                 <div class='col-xs-12 col-md-4 col-lg-3'>
-                    <div class='text-h5 q-mb-lg bg-green-6 text-white q-pa-md title' xstyle="min-height: 64px"><div>Kostenlose Beratung vor Ort</div></div>
-                    Lassen Sie sich <span class="highlight">kostenlos</span> und völlig <span class="highlight">unverbindlich</span> direkt vor Ort beraten. <br>
+                    <div class='text-h5 q-mb-lg bg-green-6 text-white q-pa-md title' xstyle="min-height: 64px"><div>Ihr kompetenter Fachmann besucht sie gerne</div></div>
                     <br>
                     Ihr kompetenter Fachmann besucht Sie gerne bei Ihnen zu Hause oder Ihrem Gewerbeobjekt.
                     <q-space style="height: 50px" />

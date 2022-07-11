@@ -12,10 +12,12 @@
             <br>
             Tel: 089 / 88 56 28 48 <br>
             Fax: 089 / 88 56 28 49 <br>
-            Mobil: 0176 / 77777756 <br>
             <br>
             E-Mail: info@insectosun.de <br>
             Web: www.insectosun.de <br>
+            <br>
+            Rechtsform: Einzelunternehmen <br>
+
         </div>
 
         <q-space style="height: 50px" />
