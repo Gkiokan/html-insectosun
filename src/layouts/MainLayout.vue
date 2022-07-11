@@ -16,7 +16,8 @@
         </div>
 
         <div class="q-gutter-md" v-if="$q.screen.gt.md">
-            <q-btn unelevated  class="q-py-md" v-for="(item,i) in links" :key="'link_'+i"
+            <q-btn unelevated  class="q-py-md" tag="a"
+              v-for="(item,i) in links" :key="'link_'+i"
               :label="item.title" :to="item.link" :class="isCurrentRoute(item.link) ? 'bg-green-6 text-white' : 'text-grey-9'"
             />
 

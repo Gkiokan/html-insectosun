@@ -70,6 +70,17 @@
             <q-space style="height: 100px" />
 
 
+            <div class='row q-col-gutter-lg'>
+                <div class='col-xs-12 col-md-6'>
+                    <q-img src="/img/transpatec/Neher_Transpatec_Gewebede-600-338.jpg.webp" class="shadow-10 rounded-borders" />
+                </div>
+                <div class='col-xs-12 col-md-6'>
+                    <q-img src="/img/transpatec/Neher-TTA-B107k.gif" class="shadow-10 rounded-borders" />
+                </div>
+            </div>
+            <q-space style="height: 100px" />
+
+
             <q-card class='q-pa-lg bg-transparent no-shadow rounded-borders'>
                 <div class='row q-col-gutter-lg flex justify-around'>
                     <div class="col-xs-auto col-md-4 text-center" v-for="(img,i) in prices" :key="'price_'+i">
