@@ -37,30 +37,33 @@
             <q-space style="height: 100px" />
 
             <div class="row q-col-gutter-lg">
-                <div class='col-xs-12 col-md-3'>
-                    <div class='text-h5 q-mb-lg bg-green-6 text-white q-pa-md title' style="min-height: 64px"><div>Pollenflug 2022 hat bereits begonnen!</div></div>
+                <div class='col-xs-12 col-md-4 col-lg-3'>
+                    <div class='text-h5 q-mb-lg bg-green-6 text-white q-pa-md title' xstyle="min-height: 64px"><div>Pollenflug 2022 hat bereits begonnen!</div></div>
                     Frühlingszeit ist Pollenflugzeit! <br>
                     Starten Sie jetzt gelassen in die Heuschnupfen-saison. <br>
                     <br>
                     Gerne beraten wir Sie, wie Sie sich vor Heuschnupfen schützen.
+                    <q-space style="height: 50px" />
                 </div>
 
-                <q-space />
+                <q-space v-if="$q.screen.gt.md" />
 
-                <div class='col-xs-12 col-md-3'>
-                    <div class='text-h5 q-mb-lg bg-green-6 text-white q-pa-md title' style="min-height: 64px"><div>Auch in diesem Jahr wieder Mückenplage zu erwarten</div></div>
+                <div class='col-xs-12 col-md-4 col-lg-3'>
+                    <div class='text-h5 q-mb-lg bg-green-6 text-white q-pa-md title' xstyle="min-height: 64px"><div>Auch in diesem Jahr wieder Mückenplage zu erwarten</div></div>
                     Schützen Sie sich und Ihre Liebsten am besten noch heute vor der lästigen Plage!<br>
                     <br>
                     Abhilfe schafft unser spezielles Fliegengitter-System.
+                    <q-space style="height: 50px" />
                 </div>
 
-                <q-space />
+                <q-space v-if="$q.screen.gt.md" />
 
-                <div class='col-xs-12 col-md-3'>
-                    <div class='text-h5 q-mb-lg bg-green-6 text-white q-pa-md title' style="min-height: 64px"><div>Kostenlose Beratung vor Ort</div></div>
+                <div class='col-xs-12 col-md-4 col-lg-3'>
+                    <div class='text-h5 q-mb-lg bg-green-6 text-white q-pa-md title' xstyle="min-height: 64px"><div>Kostenlose Beratung vor Ort</div></div>
                     Lassen Sie sich <span class="highlight">kostenlos</span> und völlig <span class="highlight">unverbindlich</span> direkt vor Ort beraten. <br>
                     <br>
                     Ihr kompetenter Fachmann besucht Sie gerne bei Ihnen zu Hause oder Ihrem Gewerbeobjekt.
+                    <q-space style="height: 50px" />
                 </div>
             </div>
             <q-space style="height: 100px" />

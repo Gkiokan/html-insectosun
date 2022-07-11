@@ -79,7 +79,7 @@
         </q-tab-panel>
 
         <q-tab-panel name="lisa">
-            <ProduktInfo title="LiSa" image="/img/schacht/Insektenschutz_LISA_Bauarten_RESI_D-0023-20.jpg.24279782.jpg">
+            <ProduktInfo title="LiSa" image="/img/schacht/Insektenschutz_LISA_Bauarten_LISA_D-0022_20.jpg.24279785.jpg">
                 LiSA steht für Lichtschachtabdeckung. <br>
                 <br>
                 Sie zeichnet sich durch ein elegantes Design und eine sichere Abdichtung aus. Der für Sie maßgefertigte,
