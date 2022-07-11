@@ -2,6 +2,7 @@
   <q-item
     clickable
     tag="a"
+    active-class="bg-green-6 text-white"
     exact
     :to="link"
   >

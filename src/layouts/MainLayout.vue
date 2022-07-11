@@ -28,7 +28,7 @@
       </q-toolbar>
     </q-header>
 
-    <q-drawer v-model="leftDrawerOpen" class="text-grey-9" :show-if-above="true" bordered>
+    <q-drawer v-model="leftDrawerOpen" class="text-grey-9" :show-if-above="false" bordered>
         <q-list>
             <q-item-label header> InsectoSun </q-item-label>
             <EssentialLink v-for="link in essentialLinks" :key="link.title" v-bind="link" />
@@ -44,7 +44,8 @@
 
         <div class="q-mt-md text-center">
           <q-btn color="red" tag="a" href="tel:08988562848">
-              Kostenlose Beratung <br>089 / 88 56 28 48
+              Kostenlose Beratung <br>
+              089 / 88 56 28 48
           </q-btn>
         </div>
 
