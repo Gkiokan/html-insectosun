@@ -6,8 +6,9 @@
         <div />
         <div />
     </div>
-    <h1 class="title" v-if="title">
-        <div>{{ title }}</div>
+    <h1 class="title">
+        <slot />
+        <div v-if="title">{{ title }}</div>
         <div class="sub" v-if="sub">{{ sub }}</div>
     </h1>
 </div>

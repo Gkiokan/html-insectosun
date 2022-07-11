@@ -22,15 +22,11 @@
               <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" label="Sascha Smajlovic" />
               <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" label="Treffauerstr. 47" />
               <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" label="81373 München" />
-              <q-space style="height: 30px" />
-          </div>
-
-          <div class='col-xs-12 col-sm-6 col-md-3 col-lg-2'>
               <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" icon="call" label="089 / 88 56 28 48" href="tel:08988562848" />
-              <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" icon="print" label="089 / 88 56 28 49" />
               <q-space style="height: 30px" />
           </div>
 
+          <q-space />
           <div class='col-xs-12 col-sm-6 col-md-3 col-lg-2'>
               <q-btn unelevated flat no-caps no-wrap class="full-width" align="left" icon="mail" label="info@insectosun.de" href="mailto:info@insectosun.de?subject=InsectoSun%20Kontakt" />
               <q-btn unelevated flat no-caps no-wrap class="full-width" align="left" icon="web" label="Web: www.insectosun.de" href="https://insectosun.de" />

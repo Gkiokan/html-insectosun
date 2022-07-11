@@ -1,7 +1,9 @@
 <template lang="html">
 <q-page>
 
-    <TopHeader title="InsectoSun" sub="professioneller Insekten- und Sonnenschutz" image="/img/bg/bg-wab.webp" />
+    <TopHeader sub="professioneller Insekten- und Sonnenschutz" image="/img/bg/bg-wab.webp">
+        <img src="/logo-text.png" class="logo_in_title" />
+    </TopHeader>
 
     <div class='q-pa-md'>
         <Container>

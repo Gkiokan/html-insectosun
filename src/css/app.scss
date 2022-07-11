@@ -9,6 +9,15 @@
   border-bottom: 3px solid pink;
 }
 
+.logo_in_title {
+    height: 50px; position: relative; z-index: 5;
+
+    @media (max-width: 1024px){
+        height: 30px;
+        width: 250px;
+    }
+}
+
 .title {
   position: relative;
   padding: 10px 20px;
