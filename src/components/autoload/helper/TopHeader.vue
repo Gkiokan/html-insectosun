@@ -79,6 +79,18 @@ export default {
         padding-left: 80px;
         line-height: 1.5;
     }
+
+    @media (max-width: 1024px){
+        font-size: 4rem;
+
+        .sub {
+          padding-left: 40px;
+        }
+    }
+
+    @media (max-width: 768px){
+        font-size: 3rem;
+    }
   }
 }
 </style>

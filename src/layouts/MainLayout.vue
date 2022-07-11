@@ -4,7 +4,7 @@
       <q-toolbar class="bg-transparent text-grey-9">
         <q-btn flat dense icon="menu" class="q-mr-md" aria-label="Menu" @click="toggleLeftDrawer" v-if="!$q.screen.gt.md" />
 
-        <img src="/logo-transparent.png" style="width: 80px; height: 80px; margin-right: 15px" />
+        <img src="/logo-transparent.png" style="width: 80px; height: 80px; margin-right: 15px" v-if="$q.screen.gt.xs"/>
         <img src="/logo-text.png" style="height: 30px" />
 
         <q-space />
