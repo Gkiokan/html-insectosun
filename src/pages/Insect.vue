@@ -1,7 +1,7 @@
 <template lang="html">
 <q-page>
 
-    <TopHeader title="Insektenschutz" image="/img/insect/Insektenschutz_Türen_Header_2004.jpg.24293527.jpg" />
+    <TopHeader title="Insektenschutz" image="/img/insect/Insektenschutz_Turen_Header_2004.jpg.24293527.jpg" />
 
     <div class='q-pa-md'>
         <Container>

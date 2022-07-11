@@ -9,7 +9,7 @@
 
       <q-tab-panels v-model="tab" animated class="bg-transparent" style="min-height: 550px">
         <q-tab-panel name="dreh">
-            <ProduktInfo title="Klassisch - Die Drehtüre" image="/img/insect/erfal_Insektenschutz_Türen_Bauarten_Drehrahmen_R-0036.jpg.24280175.jpg">
+            <ProduktInfo title="Klassisch - Die Drehtüre" image="/img/insect/erfal_Insektenschutz_Turen_Bauarten_Drehrahmen_R-0036.jpg.24280175.jpg">
                 Perfekt angepasst an Ihre Balkon- oder Terassentüre. <br>
                 Nach außen oder innen öffnend, mit Sprosse und Trittschutz-blech. <br>
                 <br>
@@ -25,7 +25,7 @@
         </q-tab-panel>
 
         <q-tab-panel name="pendel">
-            <ProduktInfo title="Flexibel - Die Pendeltüre" image="/img/insect/erfal_Insektenschutz_Türen_Penseltüren_R-206_.jpg.24280177.jpg">
+            <ProduktInfo title="Flexibel - Die Pendeltüre" image="/img/insect/erfal_Insektenschutz_Turen_Penselturen_R-206_.jpg.24280177.jpg">
                 Ein-, zwei oder mehrflügelig; mit und ohne Montagerahmen. <br>
                 Benötigt keinen Schwenkbereich.<br>
                 <br>
@@ -40,7 +40,7 @@
         </q-tab-panel>
 
         <q-tab-panel name="schieb">
-            <ProduktInfo title="Elegant - Die Schiebeanlage" image="/img/insect/erfal_Insektenschutz_Türen_Bauarten_Schiebeanlagen_R-0001.jpg.24280176.jpg">
+            <ProduktInfo title="Elegant - Die Schiebeanlage" image="/img/insect/erfal_Insektenschutz_Turen_Bauarten_Schiebeanlagen_R-0001.jpg.24280176.jpg">
                 Selbständiges, schnelles und geräuschloses Schließen. <br>
                 Nach innen und außen öffnend. <br>
                 <br>

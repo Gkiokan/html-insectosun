@@ -32,7 +32,7 @@
         </q-tab-panel>
 
         <q-tab-panel name="rollo">
-            <ProduktInfo title="Innovativ - Das Rollo" :gallery="rolloGallery" image="/img/insect/erfal_Insektenschutz_Türen_Bauarten_Schiebeanlagen_R-0001.jpg.24280176.jpg">
+            <ProduktInfo title="Innovativ - Das Rollo" :gallery="rolloGallery" image="/img/insect/erfal_Insektenschutz_Turen_Bauarten_Schiebeanlagen_R-0001.jpg.24280176.jpg">
                 Perfekt integriert - das Rollo für Fenster und Dachflächenfenster. <br>
                 <br>
                 Die ideale Lösung für alle Fassadenfenster ist das flexibel einsetzbare Insektenschutzrollo.
@@ -59,15 +59,15 @@ export default {
       tab: 'spann',
       rolloGallery: [
         '/img/rollos/erfal_Rollos_bauarteb_besonderheiten_Dachfenster.jpg.24279855.jpg',
-        '/img/rollos/erfal_Rollos_bauarten_besonderheiten_flexilibität.jpg.24279856.jpg',
+        '/img/rollos/erfal_Rollos_bauarten_besonderheiten_flexilibitat.jpg.24279856.jpg',
         '/img/rollos/erfal_Rollos_bauarten_besonderheiten_Kindersicherheit.jpg.24279858.jpg',
         '/img/rollos/erfal_Rollos_bauarten_besonderheiten_Massanfertigung.jpg.24279854.jpg',
         '/img/rollos/erfal_Rollos_bauarten_besonderheiten_Rollos_mehr.jpg.24279740.jpg',
         '/img/rollos/erfal_Rollos_bauarten_besonderheiten_Softraise.jpg.24281148.jpg',
         '/img/rollos/erfal_Rollos_ganz_ihr_geschmack_Farben_Muster.jpg.24282146.jpg',
         '/img/rollos/erfal_Rollos_ganz_ihr_geschmack_Transparenzen.jpg.24281876.jpg',
-        '/img/rollos/erfal_Rollos_Montagemöglichkeit_Fensterrahmen.jpg.24281867.jpg',
-        '/img/rollos/erfal_Rollos_Montagemöglichkeit_vor_Fenster.jpg.24281866.jpg',
+        '/img/rollos/erfal_Rollos_Montagemoglichkeit_Fensterrahmen.jpg.24281867.jpg',
+        '/img/rollos/erfal_Rollos_Montagemoglichkeit_vor_Fenster.jpg.24281866.jpg',
       ],
   }}
 }
