@@ -59,7 +59,7 @@
                 <q-space v-if="$q.screen.gt.md" />
 
                 <div class='col-xs-12 col-md-4 col-lg-3'>
-                    <div class='text-h5 q-mb-lg bg-green-6 text-white q-pa-md title' xstyle="min-height: 64px"><div>Ihr kompetenter Fachmann besucht sie gerne</div></div>
+                    <div class='text-h5 q-mb-lg bg-green-6 text-white q-pa-md title' xstyle="min-height: 64px"><div>Kompetenter Fachmann</div></div>
                     <br>
                     Ihr kompetenter Fachmann besucht Sie gerne bei Ihnen zu Hause oder Ihrem Gewerbeobjekt.
                     <q-space style="height: 50px" />

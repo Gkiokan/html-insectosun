@@ -9,7 +9,7 @@
 
       <q-tab-panels v-model="tab" animated class="bg-transparent" style="min-height: 550px">
         <q-tab-panel name="spann">
-            <ProduktInfo title="Universell - Der Spannrahmen" image="/img/fenster/erfal_Insektenschutz_Fenster_Bauarten_Spannrahmen.jpg.24280124.jpg">
+            <ProduktInfo title="Universell - Der Spannrahmen" image="/img/fenster/erfal_Insektenschutz_Fenster_Bauarten_Sonderformen.jpg.24280127.jpg">
                 Fast unsichtbar, einfach und bequem zu handhaben, für alle Fenster im Haus. <br>
                 Egal ob Holz, Kunststoff oder Aluminium. <br>
                 <br>

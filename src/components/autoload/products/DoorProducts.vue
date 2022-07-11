@@ -1,8 +1,8 @@
 <template lang="html">
   <q-card class="q-pa-md bg-transparent no-shadow">
       <q-tabs v-model="tab" class="bg-green-6- q-mb-md ProductTabs" active-bg-color="grey-4" indicator-color="green-14" align="center">
+        <q-tab no-caps class="q-px-lg text-white-" name="pendel" label="Pendeltüre" />
           <q-tab no-caps class="q-px-lg text-white-" name="dreh" label="Drehtüre" />
-          <q-tab no-caps class="q-px-lg text-white-" name="pendel" label="Pendeltüre" />
           <q-tab no-caps class="q-px-lg text-white-" name="schieb" label="Schiebeanlage" />
       </q-tabs>
 
@@ -65,7 +65,7 @@ export default {
   name: 'DoorProducts',
 
   data(){ return {
-      tab: 'dreh'
+      tab: 'pendel'
   }}
 }
 </script>

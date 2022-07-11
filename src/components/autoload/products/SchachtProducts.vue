@@ -2,14 +2,31 @@
   <q-card class="q-pa-md bg-transparent no-shadow">
       <q-tabs v-model="tab" class="bg-green-6- q-mb-md ProductTabs" active-bg-color="grey-4" indicator-color="green-14" align="center">
         <q-tab no-caps class="q-px-lg text-white- bg-transparent" name="info" icon="info" xlabel="Info" />
+          <q-tab no-caps class="q-px-lg text-white-" name="lisa" label="LiSa" />
           <q-tab no-caps class="q-px-lg text-white-" name="elsa" label="Elsa" />
           <q-tab no-caps class="q-px-lg text-white-" name="terresa" label="Terresa" />
           <q-tab no-caps class="q-px-lg text-white-" name="resi" label="ReSi" />
-          <q-tab no-caps class="q-px-lg text-white-" name="lisa" label="LiSa" />
       </q-tabs>
 
 
       <q-tab-panels v-model="tab" animated class="bg-transparent" style="min-height: 550px">
+        <q-tab-panel name="lisa">
+            <ProduktInfo title="LiSa" image="/img/schacht/Insektenschutz_LISA_Bauarten_LISA_D-0022_20.jpg.24279785.jpg">
+                LiSA steht für Lichtschachtabdeckung. <br>
+                <br>
+                Sie zeichnet sich durch ein elegantes Design und eine sichere Abdichtung aus. Der für Sie maßgefertigte,
+                flache Aluminiumrahmen mit perfekter Rundum-Bürstendichtung, feinmaschigem Edelstahlgitter und
+                Edelstahlverschraubung deckt den vorhandenen Rost lückenlos ab. <br>
+                <br>
+                LiSA wird mit wenigen Handgriffen
+                einfach auf den vorhandenen Kellerrost montiert. Die stolperfreie Konstruktion durch extrem flache
+                Profile ist sehr stabil. Mit Streckmetallgewebe ist LiSA auch als befahrbare Variante auf geeignetem
+                Kellerschacht erhältlich. <br>
+                <br>
+                Das Lüften Ihrer Keller- oder Hobbyräume macht mit einem sauberen Lichtschacht wieder Freude.
+            </ProduktInfo>
+        </q-tab-panel>
+
         <q-tab-panel name="info">
             <ProduktInfo title="Nie mehr Lichtschächte reinigen" image="/img/schacht/IS-Teaser_Insektenschutz-Lichtschacht.jpg.24281721.jpg">
               Perfekte Lichtschacht-abdeckungen.<br>
@@ -78,22 +95,6 @@
             </ProduktInfo>
         </q-tab-panel>
 
-        <q-tab-panel name="lisa">
-            <ProduktInfo title="LiSa" image="/img/schacht/Insektenschutz_LISA_Bauarten_LISA_D-0022_20.jpg.24279785.jpg">
-                LiSA steht für Lichtschachtabdeckung. <br>
-                <br>
-                Sie zeichnet sich durch ein elegantes Design und eine sichere Abdichtung aus. Der für Sie maßgefertigte,
-                flache Aluminiumrahmen mit perfekter Rundum-Bürstendichtung, feinmaschigem Edelstahlgitter und
-                Edelstahlverschraubung deckt den vorhandenen Rost lückenlos ab. <br>
-                <br>
-                LiSA wird mit wenigen Handgriffen
-                einfach auf den vorhandenen Kellerrost montiert. Die stolperfreie Konstruktion durch extrem flache
-                Profile ist sehr stabil. Mit Streckmetallgewebe ist LiSA auch als befahrbare Variante auf geeignetem
-                Kellerschacht erhältlich. <br>
-                <br>
-                Das Lüften Ihrer Keller- oder Hobbyräume macht mit einem sauberen Lichtschacht wieder Freude.
-            </ProduktInfo>
-        </q-tab-panel>
       </q-tab-panels>
 
   </q-card>
@@ -104,7 +105,7 @@ export default {
   name: 'SchachtProducts',
 
   data(){ return {
-      tab: 'info'
+      tab: 'lisa'
   }}
 }
 </script>
