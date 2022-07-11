@@ -7,6 +7,7 @@ const routes = [
       // { path: '', redirect: 'home', component: () => import('pages/IndexPage.vue') },
       { path: '', name: 'home', component: () => import('pages/Home.vue') },
       { path: 'Impressum', name: 'imprint', component: () => import('pages/Imprint.vue') },
+      { path: 'Insektenschutz', name: 'insect', component: () => import('pages/Insect.vue') },
       { path: 'Sonnenschutz', name: 'sun', component: () => import('pages/Sun.vue') },
       { path: 'Kontakt', name: 'contact', component: () => import('pages/Contact.vue') },
     ]

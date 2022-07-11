@@ -16,11 +16,10 @@
             <q-btn unelevated class="q-py-md" text-color="grey-9" label="Kontakt" />
         </div>
 
-        <div class="q-gutter-md">
+        <div class="q-gutter-md" v-if="$q.screen.gt.md">
             <q-btn unelevated  class="q-py-md" v-for="(item,i) in links" :key="'link_'+i"
               :label="item.title" :to="item.link" :class="isCurrentRoute(item.link) ? 'bg-green-6 text-white' : 'text-grey-9'"
             />
-
         </div>
 
         <q-space />
@@ -65,17 +64,21 @@ import MainFooter from './MainFooter'
 
 const linksList = [
   {
-    title: 'Insektenschutz',
+    title: 'Willkommen',
     link: { name: 'home' }
+  },
+  {
+    title: 'Insektenschutz',
+    link: { name: 'insect' }
   },
   {
     title: 'Sonnenschutz',
     link: { name: 'sun' }
   },
-  {
-    title: 'Kontakt',
-    link: { name: 'contact' }
-  },
+  // {
+  //   title: 'Kontakt',
+  //   link: { name: 'contact' }
+  // },
 ]
 
 const supportLinks = [
@@ -130,7 +133,7 @@ export default defineComponent({
       background-image: url('/img/bg/bg-squad.webp');
       // background-image: url('/img/bg/bg-wab.webp');
       opacity: .7;
-      filter: grayscale(1);
+      // filter: grayscale(1);
       background-size: cover;
     }
 

@@ -6,7 +6,7 @@
         <div />
         <div />
     </div>
-    <h1 class="title" v-if="title">{{ title }}</h1>
+    <h1 class="title" v-if="title"><div>{{ title }}</div></h1>
 </div>
 </template>
 

@@ -10,9 +10,25 @@
 }
 
 .title {
+  position: relative;
   padding: 10px 20px;
   background: #4caf50;
   color: white;
+
+  > div {
+      position: relative;
+      z-index: 3;
+  }
+
+  &::before {
+      content: '';
+      position: absolute; z-index: 2;
+      top: 0px; left: 0px; right: 0px; bottom: 0px;
+      background: bottom center url('/img/bg/green.png');
+      background-size: cover;
+      opacity: .8;
+      filter: blur(3px);
+  }
 }
 
 
@@ -21,4 +37,12 @@
       font-size: 24px;
       font-weight: 400;
   }
+}
+
+.q-tab__indicator {
+    height: 6px;
+}
+
+.shadow-price {
+    box-shadow: 0 6px 6px -3px rgb(0 0 0 / 10%), 0 10px 14px 1px rgb(0 0 0 / 1%), 0 4px 18px 3px rgb(0 0 0 / 3%)
 }

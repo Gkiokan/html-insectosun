@@ -1,6 +1,6 @@
 <template lang="html">
   <q-card class="q-pa-md bg-transparent no-shadow">
-      <q-tabs v-model="tab" class="bg-green-6- q-mb-md ProductTabs" active-bg-color="grey-4" indicator-color="green-10" align="center">
+      <q-tabs v-model="tab" class="bg-green-6- q-mb-md ProductTabs" active-bg-color="grey-4" indicator-color="green-14" align="center">
           <q-tab no-caps class="q-px-lg text-white-" name="spann" label="Spannrahmen" />
           <q-tab no-caps class="q-px-lg text-white-" name="dreh" label="Drehfenster" />
           <q-tab no-caps class="q-px-lg text-white-" name="rollo" label="Rollo" />
