@@ -18,6 +18,10 @@
   > div {
       position: relative;
       z-index: 3;
+
+      &+div {
+          font-size: 80%;
+      }
   }
 
   &::before {
@@ -32,6 +36,14 @@
 
   @media (max-width: 1024px){
       font-size: 4rem;
+      line-height: 1;
+
+      >div+div
+      {
+          margin-top: 20px;
+          font-size: 80%;
+          line-height: 1.2;
+      }
 
       .sub {
         padding-left: 40px;
@@ -39,7 +51,7 @@
   }
 
   @media (max-width: 768px){
-      font-size: 3rem;
+      font-size: 2.5rem;
   }
 }
 
