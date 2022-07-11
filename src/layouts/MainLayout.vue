@@ -2,11 +2,13 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated class="bg-white">
       <q-toolbar class="bg-transparent text-grey-9">
-        <q-btn flat dense icon="menu" aria-label="Menu" @click="toggleLeftDrawer" />
+        <q-btn flat dense icon="menu" class="q-mr-md" aria-label="Menu" @click="toggleLeftDrawer" />
 
-        <q-toolbar-title>
+        <q-toolbar-title v-if="false">
           InsectoSun
         </q-toolbar-title>
+
+        <img src="/icons/favicon-96x96.png" style="width: 60px; height: 60px" />
 
         <q-space />
 
