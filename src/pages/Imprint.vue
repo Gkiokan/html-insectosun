@@ -17,7 +17,7 @@
             Web: www.insectosun.de <br>
             <br>
             Rechtsform: Einzelunternehmen <br>
-            Ust-ID: -//- folgt <br>
+            Ust-ID: DE265124476 <br>
 
         </div>
 
