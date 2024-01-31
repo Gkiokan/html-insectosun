@@ -62,7 +62,16 @@
     <q-page-container class="bg text-grey-9">
         <router-view />
         <MainFooter />
-        <cookie-consent/>
+        
+        <CookieConsent>
+          <template slot="message">
+              Wir benutzen essenzielle Cookies für die Funktionalität unserer Webseite. 
+              <a class="btn btn-link" href="#">Datenschutz Infos</a>
+              </template>
+              <template slot="button">
+              <button class="btn btn-info">Ok, verstanden!</button>
+          </template>
+        </CookieConsent>
     </q-page-container>
   </q-layout>
 </template>
@@ -71,6 +80,8 @@
 import { defineComponent, ref } from 'vue'
 import EssentialLink from 'components/EssentialLink.vue'
 import MainFooter from './MainFooter'
+
+import CookieConsent from 'vue-cookieconsent-component'
 
 const linksList = [
   {
@@ -104,6 +115,7 @@ export default defineComponent({
   components: {
     EssentialLink,
     MainFooter,
+    CookieConsent,
   },
 
   setup () {

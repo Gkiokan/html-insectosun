@@ -4,7 +4,7 @@
 
 <script>
 import { defineComponent } from 'vue'
-import CookieConsent from 'cookie-consent-js/src/cookie-consent.js'
+// import CookieConsent from 'cookie-consent-js/src/cookie-consent.js'
 
 export default defineComponent({
   name: 'App',
@@ -20,7 +20,7 @@ export default defineComponent({
       },
 
       init(){
-          console.log(CookieConsent)
+          // console.log(CookieConsent)              
       },
   }
 })
