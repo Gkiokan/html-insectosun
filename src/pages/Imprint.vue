@@ -7,7 +7,7 @@
         <div>
             Inhaber von <b>InsectoSun</b> <br>
             <br>
-            Insectosun GmbH
+            Insectosun GmbH <br>
             Sascha Smajlovic <br>
             Treffauerstr. 47 <br>
             81373 München <br>
