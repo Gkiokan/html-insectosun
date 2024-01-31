@@ -4,8 +4,8 @@
       <q-toolbar class="bg-transparent text-grey-9">
         <q-btn flat dense icon="menu" class="q-mr-md" aria-label="Menu" @click="toggleLeftDrawer" v-if="!$q.screen.gt.md" />
 
-        <img src="/gino.png" style="width: 80px; height: 80px; margin-right: 15px" v-if="$q.screen.gt.xs"/>
-        <img src="/logo-text.png" style="height: 30px" />
+        <img src="/gino.png" class="cursor-pointer" style="width: 80px; height: 80px; margin-right: 15px" v-if="$q.screen.gt.xs" @click="$router.push({ name: 'home' })"  >
+        <img src="/logo-text.png" class="cursor-pointer" style="height: 30px" @click="$router.push({ name: 'home' })" />
 
         <q-space />
 
@@ -62,6 +62,7 @@
     <q-page-container class="bg text-grey-9">
         <router-view />
         <MainFooter />
+        <cookie-consent/>
     </q-page-container>
   </q-layout>
 </template>

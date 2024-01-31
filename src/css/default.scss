@@ -82,3 +82,15 @@
 .shadow-price {
     box-shadow: 0 6px 6px -3px rgb(0 0 0 / 10%), 0 10px 14px 1px rgb(0 0 0 / 1%), 0 4px 18px 3px rgb(0 0 0 / 3%)
 }
+
+
+a:not(.q-btn) {
+    color: #4caf50 !important;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .3s;
+
+    &:hover {
+        color: #2f8032 !important;
+    }
+}

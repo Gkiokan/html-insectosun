@@ -7,10 +7,10 @@
               InsectoSun
               <br v-if="!$q.screen.gt.md" />
               <span class="text-green-6 q-px-md" v-if="$q.screen.gt.md">|</span>
-              <small class="text-grey-6">professioneler Insekten- und Sonnenschutz</small>
+              <small class="text-grey-6">Professioneler Insekten- und Sonnenschutz</small>
           </div>
           <q-space style="height: 30px" />
-          <q-btn color="red" size="lg" href="tel:08988562848">
+          <q-btn unelevated color="red" size="lg" class="rounded-borders" href="tel:08988562848">
               <q-icon name="call" class="q-mr-md" />
               Telefon Beratung <br v-if="!$q.screen.gt.md">089 / 88 56 28 48
           </q-btn>
@@ -34,15 +34,15 @@
           </div>
 
           <div class='col-xs-12 col-sm-6 col-md-3 col-lg-2'>
-              <q-btn unelevated flat no-caps no-wrap class="full-width" align="left" label="Datenschutz" :to="{ name: 'imprint', hash: '#datenschutz' }" />
-              <q-btn unelevated flat no-caps no-wrap class="full-width" align="left" label="Impressum" :to="{ name: 'imprint' }" />
+              <q-btn unelevated flat no-caps no-wrap class="full-width" align="left" icon="security" label="Datenschutz" :to="{ name: 'imprint', hash: '#datenschutz' }" />
+              <q-btn unelevated flat no-caps no-wrap class="full-width" align="left" icon="business" label="Impressum" :to="{ name: 'imprint' }" />
               <q-space style="height: 30px" />
           </div>
 
           <div class='col-xs-12 col-md-12 col-lg-3'>
               <div class='social_media text-center'>
-                  <q-btn flat size="md" icon="fab fa-instagram" label="insectosun auf Instagram" @click="$root.open('https://www.instagram.com/insectosun/')" /> <br>
-                  <q-btn flat size="md" icon="fab fa-facebook" label="InsectoSun auf Facebook" @click="$root.open('https://www.facebook.com/InsectoSun')" /> <br>
+                  <q-btn unelevated flat no-caps class="full-width" color="orange-14" align="left" icon="fab fa-instagram" label="insectosun auf Instagram" @click="$root.open('https://www.instagram.com/insectosun/')" /> <br>
+                  <q-btn unelevated flat no-caps class="full-width" color="blue-8" align="left" icon="fab fa-facebook" label="InsectoSun auf Facebook" @click="$root.open('https://www.facebook.com/InsectoSun')" /> <br>          
               </div>
           </div>
       </div>
@@ -51,7 +51,7 @@
 
   <div class="legal_wrapper">
       <Container class="legal_notice">
-          &copy; 2022 InsectoSun | Alle Rechte vorbehalten.
+          &copy; 2022 - {{year}} InsectoSun | Alle Rechte vorbehalten.
       </Container>
   </div>
 
@@ -63,7 +63,7 @@ export default {
     name: 'MainFooter',
 
     data(){ return {
-
+        year: (new Date).getFullYear()
     }},
 
     methods: {

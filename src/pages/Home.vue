@@ -17,7 +17,7 @@
     
         <div style="width: calc(100vw - 40px); max-width: 1870px; margin: 0 auto;">
             <div class="videoPlayer extra-margin rounded-borders shadow-10">
-                <iframe src="https://player.vimeo.com/video/903252728?h=08ce33fdce&autoplay=false" allow="autoplay; fullscreen; picture-in-picture" />
+                <iframe src="https://player.vimeo.com/video/903252728?h=08ce33fdce&autoplay=false&dnt=1" allow="autoplay; fullscreen; picture-in-picture" />
             </div>     
         </div>
             

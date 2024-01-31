@@ -40,6 +40,12 @@
           Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
 
           Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
+
+          <h4 class="q-mb-md" id="vimeo">Vimeo </h4>
+          Wir benutzen Vimeo zum anzeigen unserer Videos. 
+          Vimeo selbst benutzt in Ihren embbeded Videos kein Tracking, lediglich essentiell wichtige cookie funktionen. 
+          Entsprechende technische Erläuterung von Vimeo kann <a href="https://help.vimeo.com/hc/en-us/articles/17670845188113-How-can-I-embed-videos-and-be-GDPR-compliant" target="_blank">hier</a> nachgelesen werden. 
+          Die vollständige Vimeo Datenschutz Erklärung finden Sie <a href="https://vimeo.com/cookie_policy" target="_blank">hier</a>
         </div>
 
         <q-space style="height: 50px" />
