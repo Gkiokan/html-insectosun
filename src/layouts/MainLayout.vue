@@ -61,17 +61,7 @@
 
     <q-page-container class="bg text-grey-9">
         <router-view />
-        <MainFooter />
-        
-        <CookieConsent>
-          <template slot="message">
-              Wir benutzen essenzielle Cookies für die Funktionalität unserer Webseite. 
-              <a class="btn btn-link" href="#">Datenschutz Infos</a>
-              </template>
-              <template slot="button">
-              <button class="btn btn-info">Ok, verstanden!</button>
-          </template>
-        </CookieConsent>
+        <MainFooter />         
     </q-page-container>
   </q-layout>
 </template>

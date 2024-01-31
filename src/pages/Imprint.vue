@@ -7,6 +7,7 @@
         <div>
             Inhaber von <b>InsectoSun</b> <br>
             <br>
+            Insectosun GmbH
             Sascha Smajlovic <br>
             Treffauerstr. 47 <br>
             81373 München <br>
@@ -17,7 +18,7 @@
             Web: www.insectosun.de <br>
             <br>
             Rechtsform: Einzelunternehmen <br>
-            Ust-ID: DE265124476 <br>
+            Ust-ID: DE365370931 <br>
 
         </div>
 
@@ -43,9 +44,9 @@
 
           <h4 class="q-mb-md" id="vimeo">Vimeo </h4>
           Wir benutzen Vimeo zum anzeigen unserer Videos. 
-          Vimeo selbst benutzt in Ihren embbeded Videos kein Tracking, lediglich essentiell wichtige cookie funktionen. 
+          Vimeo selbst benutzt in Ihren embbeded Videos kein Tracking, lediglich essentiell wichtige cookie funktionen zum abspielen der Videos. 
           Entsprechende technische Erläuterung von Vimeo kann <a href="https://help.vimeo.com/hc/en-us/articles/17670845188113-How-can-I-embed-videos-and-be-GDPR-compliant" target="_blank">hier</a> nachgelesen werden. 
-          Die vollständige Vimeo Datenschutz Erklärung finden Sie <a href="https://vimeo.com/cookie_policy" target="_blank">hier</a>
+          Die vollständige Vimeo Datenschutz Erklärung finden Sie <a href="https://vimeo.com/cookie_policy" target="_blank">hier</a>.
         </div>
 
         <q-space style="height: 50px" />

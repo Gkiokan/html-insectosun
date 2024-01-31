@@ -19,7 +19,7 @@
 
       <div class='row q-col-gutter-md'>
           <div class='col-xs-12 col-sm-6 col-md-3 col-lg-2'>
-              <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" label="Sascha Smajlovic" />
+              <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" label="Insectosun GmbH" />
               <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" label="Treffauerstr. 47" />
               <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" label="81373 München" />
               <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" icon="call" label="089 / 88 56 28 48" href="tel:08988562848" />
@@ -34,8 +34,9 @@
           </div>
 
           <div class='col-xs-12 col-sm-6 col-md-3 col-lg-2'>
-              <q-btn unelevated flat no-caps no-wrap class="full-width" align="left" icon="security" label="Datenschutz" :to="{ name: 'imprint', hash: '#datenschutz' }" />
               <q-btn unelevated flat no-caps no-wrap class="full-width" align="left" icon="business" label="Impressum" :to="{ name: 'imprint' }" />
+              <q-btn unelevated flat no-caps no-wrap class="full-width" align="left" icon="privacy_tip" label="Datenschutz" :to="{ name: 'imprint', hash: '#datenschutz' }" />
+              <q-btn unelevated flat no-caps no-wrap class="full-width" align="left" icon="security" label="Datenschutz Einstellung" @click="$root.openCC()" />
               <q-space style="height: 30px" />
           </div>
 

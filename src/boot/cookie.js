@@ -1,4 +1,6 @@
-import cookieconsent from 'vue-cookieconsent-component'
+// import cookieconsent from 'vue-cookieconsent-component'
+import VueCookieComply from 'vue-cookie-comply'
+import 'vue-cookie-comply/dist/style.css'
 
 /**
 * Author and copyright: Stefan Haack (https://shaack.com)
@@ -174,7 +176,7 @@ function CookieConsent(props) {
             //    })
            } else {
                self.modal.style.display = "block"
-           }
+           }           
     //    }.bind(this))
    }
 
@@ -192,6 +194,8 @@ function CookieConsent(props) {
 }
 export default async ( { app, store, router, Vue } ) => {
     // app.component('cookie-consent', cookieconsent)    
+
+    app.use(VueCookieComply)
 
     // app.config.globalProperties.$cc = new CookieConsent({
     //     contentUrl: "/cookie-consent-content", 

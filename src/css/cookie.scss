@@ -1,6 +1,25 @@
 // required and to get updates
-@import "./node_modules/vue-cookieconsent-component/src/scss/cookie-consent";
+// @import "./node_modules/vue-cookieconsent-component/src/scss/cookie-consent";
 
-.cookie-consent {
-    bottom: 0px;
+// .cookie-consent {
+//     bottom: 0px;
+// }
+
+
+body {
+    .cookie-comply {
+        position: fixed;  z-index: 100;
+        left: 30px; right: 30px; bottom: 30px;   
+        max-width: 800px; 
+        margin: 0 auto; 
+        
+        .cookie-comply__header-title {
+            font-size: 30px;
+            line-height: 1;
+        }
+    }
+
+    .cookie-comply__modal {
+        position: fixed; z-index: 2000;
+    }
 }
