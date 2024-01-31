@@ -1,13 +1,27 @@
 <template lang="html">
 <q-page>
 
-    <TopHeader sub="professioneller Insekten- und Sonnenschutz" image="/img/bg/bg-wab.webp">
+    <TopHeader class="extended" sub="professioneller Insekten- und Sonnenschutz" image="/img/bg/bg-wab.webp">
         <img src="/logo-text.png" class="logo_in_title" />
-    </TopHeader>
+
+        <template v-slot:bg v-if="false">
+            <div class="container relative-position">
+                <div class="videoPlayer">
+                    <iframe src="https://player.vimeo.com/video/903252728?h=08ce33fdce&autoplay=false" allow="autoplay; fullscreen; picture-in-picture" />
+                </div>     
+            </div>
+        </template>
+    </TopHeader>    
 
     <div class='q-pa-md'>
+    
+        <div style="width: calc(100vw - 40px); max-width: 1870px; margin: 0 auto;">
+            <div class="videoPlayer extra-margin rounded-borders shadow-10">
+                <iframe src="https://player.vimeo.com/video/903252728?h=08ce33fdce&autoplay=false" allow="autoplay; fullscreen; picture-in-picture" />
+            </div>     
+        </div>
+            
         <Container>
-
             <q-card class="q-pa-md bg-transparent no-shadow">
                 <div class="text-h4 text-weight-bold q-mt-none q-mb-md title">
                   <div>Lebensqualität </div>
@@ -18,11 +32,22 @@
 
                 <div class='row'>
                     <div class='col-xs-12 col-md-5'>
-                        Lästige Plagegeister, wie Wespen, Bienen oder Stechmücken rauben Ihnen nachts den Schlaf oder lösen sogar Allergien und Erkrankungen aus...
-                        <br><br>
-                        Störende Sonneneinstrahlung behindert Sie bei der Arbeit oder erhitzt Ihre Räume zu starkt...
-                        <br><br>
-                        ...unsere professionellen Lösungen schaffen Abhilfe!
+                        <p id="pre_intro" v-if="false">
+                            Lästige Plagegeister, wie Wespen, Bienen oder Stechmücken rauben Ihnen nachts den Schlaf oder lösen sogar Allergien und Erkrankungen aus...
+                            <br><br>
+                            Störende Sonneneinstrahlung behindert Sie bei der Arbeit oder erhitzt Ihre Räume zu starkt...
+                            <br><br>
+                            ...unsere professionellen Lösungen schaffen Abhilfe!
+                        </p>
+
+                        <p>
+                            Insectosun – Innovation für Insektenschutz!
+                            <br><br>
+                            Lästige Plagegeister wie Wespen, Bienen und Stechmücken beeinträchtigen Ihren Schlaf und können Allergien auslösen. Störende Sonneneinstrahlung behindert Ihre Arbeit und erhitzt Räume.
+                            <br><br>
+                            Unsere professionellen Lösungen bieten Abhilfe – hochwertige Fliegennetze für effektiven Insektenschutz und optimalen Sonnenschutz. Insectosun verbessert Ihre Lebensqualität.
+                        </p>
+
                         <q-space style="height: 50px" />
 
                         <q-btn flat color="green-6" size="lg" icon="call" label="Telefon Beratung" href="tel:08988562848" />

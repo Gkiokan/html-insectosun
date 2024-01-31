@@ -1,16 +1,21 @@
 <template lang="html">
 <div class='top_header shadow-8'>
-    <div class='background' :style="{ backgroundImage: 'url(' + image + ')' }" />
+    <div class='background' :style="{ backgroundImage: 'url(' + image + ')' }">
+
+    </div>
     <div class='overlay'>
         <div />
         <div />
         <div />
-    </div>
+    </div>    
+
     <h1 class="title">
         <slot />
         <div v-if="title">{{ title }}</div>
         <div class="sub" v-if="sub">{{ sub }}</div>
     </h1>
+
+    <slot name="bg" />
 </div>
 </template>
 
@@ -22,7 +27,11 @@ export default {
       image: {},
       title: {},
       sub: {}
-  }
+  },
+
+  data(){ return {
+        videoURL: 'https://player.vimeo.com/video/903252728?h=08ce33fdce',
+  }}
 }
 </script>
 
@@ -31,7 +40,14 @@ export default {
   // height: 0px;
   // padding-bottom: 56.25%;
   position: relative;
-  height: 600px;
+  height: 800px;
+
+  &.extended {
+    // overflow: hidden;
+    height: auto;
+    // min-height: calc((100vw / 16 * 9) - 50px);
+
+  }
 
   .background {
       content: '';
@@ -67,11 +83,13 @@ export default {
     }
   }
 
-  h1 {
+  h1.title {
     position: relative; z-index: 10;
+    top: 0px; left: 0px;
     display: inline-block;
     font-weight: bold;
     padding: 10px 40px;
+    border-radius: 0px 12px 12px 0px !important;
 
     .sub {
         font-size: 40%;
