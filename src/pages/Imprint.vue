@@ -14,7 +14,7 @@
             <br>
             Eintragung im Handelsregister <br>
             Registergericht: München <br>
-            Registernummer: HRB  <br>
+            Registernummer: HRB 284984 <br>
             <br>
             Rechtsform: Gesellschaft mit beschränkter Haftung <br>
             Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: DE365370931 <br>            
