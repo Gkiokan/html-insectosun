@@ -5,21 +5,27 @@
         <h1 class="title"><div>Impressum</div></h1>
 
         <div>
-            Inhaber von <b>InsectoSun</b> <br>
+            Angaben gem. § 5 TMG <br>
             <br>
+            <b>Sitz der Geesllschaft </b> <br>
             Insectosun GmbH <br>
-            Sascha Smajlovic <br>
             Treffauerstr. 47 <br>
             81373 München <br>
             <br>
-            Tel: 089 / 88 56 28 48 <br>
+            Eintragung im Handelsregister <br>
+            Registergericht: München <br>
+            Registernummer: HRB  <br>
             <br>
+            Rechtsform: Gesellschaft mit beschränkter Haftung <br>
+            Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: DE365370931 <br>            
+            <br>
+            <b>Geschäftsführer</b> <br>
+            Sascha Smajlovic <br>
+            <br>                                    
+            <b>Kontakt </b> <br>
+            Tel: 089 / 88 56 28 48 <br>
             E-Mail: info@insectosun.de <br>
             Web: www.insectosun.de <br>
-            <br>
-            Rechtsform: Einzelunternehmen <br>
-            Ust-ID: DE365370931 <br>
-
         </div>
 
         <q-space style="height: 50px" />
