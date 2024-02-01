@@ -65,7 +65,7 @@
 
             <div class="row q-col-gutter-lg">
                 <div class='col-xs-12 col-md-4 col-lg-3'>
-                    <div class='text-h5 q-mb-lg bg-green-6 text-white q-pa-md title' xstyle="min-height: 64px"><div>Pollenflug 2022 hat bereits begonnen!</div></div>
+                    <div class='text-h5 q-mb-lg bg-green-6 text-white q-pa-md title' xstyle="min-height: 64px"><div>Pollenflug kann sehr lästig sein</div></div>
                     Frühlingszeit ist Pollenflugzeit! <br>
                     Starten Sie jetzt gelassen in die Heuschnupfen-saison. <br>
                     <br>
