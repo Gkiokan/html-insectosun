@@ -9,8 +9,8 @@
             <br>
             <b>Sitz der Geesllschaft </b> <br>
             Insectosun GmbH <br>
-            Treffauerstr. 47 <br>
-            81373 München <br>
+            Glasstraße 4 b <br>
+            80995 München  <br>      
             <br>
             Eintragung im Handelsregister <br>
             Registergericht: München <br>

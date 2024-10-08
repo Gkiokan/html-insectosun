@@ -20,8 +20,8 @@
       <div class='row q-col-gutter-md'>
           <div class='col-xs-12 col-sm-6 col-md-3 col-lg-2'>
               <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" label="Insectosun GmbH" />
-              <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" label="Treffauerstr. 47" />
-              <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" label="81373 München" />
+              <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" label="Glasstraße 4 b" />
+              <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" label="80995 München" />            
               <q-btn unelevated flat no-caps class="q-py-none full-width" align="left" icon="call" label="089 / 88 56 28 48" href="tel:08988562848" />
               <q-space style="height: 30px" />
           </div>
